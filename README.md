@@ -4,7 +4,7 @@
 ![alt text](https://github.com/maniaKj/2018_PlumJam/blob/master/plumjam-1.png)
 ![alt text](https://github.com/maniaKj/2018_PlumJam/blob/master/plumjam-2.png)
 
-개발인원 4명
+개발인원 4명<br>
 Unity3D 활용
 기본 날짜 변환 시스템, UI 디자인, Event 시스템 담당
 
