@@ -15,7 +15,6 @@ Unity3D 활용<br>
 이벤트 시스템 관련 :<br>
 이벤트 창 - https://github.com/maniaKj/2018_PlumJam/blob/master/2018_Plum_Jam/Script/Event/Choice_Event_window.cs<br>
 메인 이벤트 관리 - https://github.com/maniaKj/2018_PlumJam/blob/master/2018_Plum_Jam/Script/Event/Event_Controller.cs<br>
-주기적 이벤트 - https://github.com/maniaKj/2018_PlumJam/blob/master/2018_Plum_Jam/Script/Event/Periodic_Event_Property.cs<br>
 이벤트 - https://github.com/maniaKj/2018_PlumJam/blob/master/2018_Plum_Jam/Script/Event.cs<br><br><br>
 
 
