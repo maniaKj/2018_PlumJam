@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1447356049497990}
+  m_IsPrefabAsset: 1
+--- !u!1 &1447356049497990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4692193217248646}
+  - component: {fileID: 114919843614873160}
+  m_Layer: 0
+  m_Name: Plum
+  m_TagString: Plum
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4692193217248646
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1447356049497990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 659.2011, y: 244.3382, z: 10.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114919843614873160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1447356049497990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14adf9d2d65042745b5864e374da9696, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  member_HeadCount: 0
+  Fund: 0
+  Reputation: 0
+  member_Happiness: 0
+  member_Participation: 0
+  member_Learning_Point: 0
+  HeadCount_Increase_Rate: 1
+  Fund_Increase_Rate: 1
+  Reputation_Increase_Rate: 1
+  member_Happiness_Increase_Rate: 1
+  member_Participation_Increase_Rate: 1
+  member_Learning_Point_Increase_Rate: 1
+  isEnabled: 1

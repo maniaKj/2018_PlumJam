@@ -1,0 +1,5 @@
+#git ignore
+PlumSaga/.vs/
+PlumSaga/Library/
+PlumSaga/Logs/
+PlumSaga/Temp/
