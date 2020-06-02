@@ -20,12 +20,13 @@ Unity3D 활용<br>
 
 맡은 역할 내 주요 스크립트
 
-[이벤트 창](https://github.com/wlsvy/2018_PlumJam/blob/master/PlumSaga/Assets/Resources/Script/Event/Choice_Event_window.cs)
+[이벤트 창](https://github.com/wlsvy/2018_PlumJam/blob/master/PlumSaga/Assets/Resources/Script/Event/Choice_Event_window.cs) : 특정 이벤트가 발생했을 시, 게임 화면에 띄워지는 이벤트 창.
 
-[이벤트 관리](https://github.com/wlsvy/2018_PlumJam/blob/master/PlumSaga/Assets/Resources/Script/Event/Event_Controller.cs)
+[이벤트 관리](https://github.com/wlsvy/2018_PlumJam/blob/master/PlumSaga/Assets/Resources/Script/Event/Event_Controller.cs) : 게임 내 이벤트 관리자 클래스.
 
-[날짜변환](https://github.com/wlsvy/2018_PlumJam/blob/master/PlumSaga/Assets/Resources/Script/Stage_Controller.cs)
+[진행단계 관리](https://github.com/wlsvy/2018_PlumJam/blob/master/PlumSaga/Assets/Resources/Script/Stage_Controller.cs) : 게임 진행 단계를 관리하는 클래스
 
-[씬 전환](https://github.com/wlsvy/2018_PlumJam/blob/master/PlumSaga/Assets/Resources/Script/ScenePass.cs)
+[씬 전환](https://github.com/wlsvy/2018_PlumJam/blob/master/PlumSaga/Assets/Resources/Script/ScenePass.cs) : 씬 전환 및, 스크린 페이드를 담당하는 클래스
 
-[게임 내 스케쥴 시스템](https://github.com/wlsvy/2018_PlumJam/blob/master/PlumSaga/Assets/Resources/Script/SchedulePreview.cs)
+[게임 내 스케쥴 시스템](https://github.com/wlsvy/2018_PlumJam/blob/master/PlumSaga/Assets/Resources/Script/SchedulePreview.cs) : 스케쥴(게임 내에서 동아리 및 동아리원들의 능력치 변화) 선택창에서 결과 미리보기를 제공하는 클래스
+
