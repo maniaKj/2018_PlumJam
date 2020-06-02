@@ -17,7 +17,7 @@ Unity3D 활용<br>
 
 [이벤트 창](https://github.com/wlsvy/2018_PlumJam/blob/master/PlumSaga/Assets/Resources/Script/Event/Choice_Event_window.cs)
 
-[이벤트 관리](https://github.com/maniaKj/2018_PlumJam/blob/master/2018_Plum_Jam/Script/Event/Event_Controller.cs)
+[이벤트 관리](https://github.com/wlsvy/2018_PlumJam/blob/master/PlumSaga/Assets/Resources/Script/Event/Event_Controller.cs)
 
 [날짜변환](https://github.com/wlsvy/2018_PlumJam/blob/master/PlumSaga/Assets/Resources/Script/Stage_Controller.cs)
 
