@@ -4,9 +4,11 @@
 간단한 시스템으로 구현한 전략 게임이며, 학과 내 동아리 간 치열한 사투(?)를 주제로 담았습니다.
 
 ### Feature
+개발기간 2일 (18.8.31 ~ 18.9.1)<br>
 개발인원 4명<br>
 Unity3D 활용<br>
-기본 날짜 변환 시스템, UI 디자인, Event 시스템 담당<br>
+
+담당 : 기본 날짜 변환 시스템, UI 디자인, Event 시스템<br>
 
 ## ScreenShots
 ![alt text](https://github.com/maniaKj/2018_PlumJam/blob/master/plumjam-1.png)
