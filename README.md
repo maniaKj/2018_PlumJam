@@ -1,13 +1,18 @@
 # 2018_PlumJam
-2018년 8월 31 ~9월 1일 무박 2일 프로젝트 플럼잼 - 소스코드
+2018년 8월 31 ~9월 1일 무박 2일간 진행한 플럼잼 게임 개발 프로젝트 입니다. 
 
+간단한 시스템으로 구현한 전략 게임이며, 학과 내 동아리 간 치열한 사투(?)를 주제로 담았습니다.
+
+### Feature
+개발인원 4명<br>
+Unity3D 활용<br>
+기본 날짜 변환 시스템, UI 디자인, Event 시스템 담당<br>
+
+## ScreenShots
 ![alt text](https://github.com/maniaKj/2018_PlumJam/blob/master/plumjam-1.png)
 ![alt text](https://github.com/maniaKj/2018_PlumJam/blob/master/plumjam-2.png)
 
-개발인원 4명<br>
-Unity3D 활용<br>
-역할 : 기본 날짜 변환 시스템, UI 디자인, Event 시스템 담당<br>
-
+## YoutubeLink
 유튜브 url : https://youtu.be/wY1Kx2Y68E8<br><br>
 
 
