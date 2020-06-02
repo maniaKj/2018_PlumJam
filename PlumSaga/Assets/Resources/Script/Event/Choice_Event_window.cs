@@ -84,14 +84,14 @@ public class Choice_Event_window : MonoBehaviour {
 
         if (isSuccess)
         {
-            m_SuccessText.text = GetResultText(m_RewardOnSuccess).Insert(0, "성공!! : \r\n").ToString();
+            m_SuccessText.text = GetResultText(m_RewardOnSuccess);
             m_SuccessWindow.SetActive(true);
 
             result = m_RewardOnSuccess;
         }
         else
         {
-            m_FailureText.text = GetResultText(m_LossOnFail).Insert(0, "실패!! : \r\n").ToString();
+            m_FailureText.text = GetResultText(m_LossOnFail);
             m_FailureWindow.SetActive(true);
 
             result = m_LossOnFail;
@@ -122,24 +122,37 @@ public class Choice_Event_window : MonoBehaviour {
                  m_PlumStatus.Participation >= m_ConditionToSuccess.Participation;
     }
 
-    private StringBuilder GetConditionText(Description desc)
+    private string GetConditionText(Description desc)
     {
-        return new StringBuilder("성공조건 : \r\n").
-        AppendFormat("인원 {0} 이상, ", desc.MemberCount).
-        AppendFormat("자금 {0} 이상, ", desc.Money).
-        AppendFormat("명성도 {0} 이상, ", desc.Reputation).
-        AppendFormat("행복도 {0} 이상, ", desc.Happiness).
-        AppendFormat("학습도 {0} 이상, ", desc.Intelligence).
-        AppendFormat("참여도 {0} 이상, ", desc.Participation);
+        return string.Format(
+            @"인원 {0} 이상, \r\n
+            자금 {1} 이상, \r\n
+            명성도 {2} 이상, \r\n
+            행복도 {3} 이상, \r\n
+            학습도 {4} 이상, \r\n
+            참여도 {5} 이상, ",
+            desc.MemberCount.ToString(),
+            desc.Money.ToString(),
+            desc.Reputation.ToString(),
+            desc.Happiness.ToString(),
+            desc.Intelligence.ToString(),
+            desc.Participation.ToString());
     }
-    private StringBuilder GetResultText(Description desc)
+
+    private string GetResultText(Description desc)
     {
-        return new StringBuilder().
-        AppendFormat("인원 {0}, ", desc.MemberCount).
-        AppendFormat("자금 {0}, ", desc.Money).
-        AppendFormat("명성도 {0}, ", desc.Reputation).
-        AppendFormat("행복도 {0}, ", desc.Happiness).
-        AppendFormat("학습도 {0}, ", desc.Intelligence).
-        AppendFormat("참여도 {0}, ", desc.Participation);
+        return string.Format(
+            @"인원 {0}, \r\n
+            자금 {1}, \r\n
+            명성도 {2}, \r\n
+            행복도 {3}, \r\n
+            학습도 {4}, \r\n
+            참여도 {5}, ",
+            desc.MemberCount.ToString(),
+            desc.Money.ToString(),
+            desc.Reputation.ToString(),
+            desc.Happiness.ToString(),
+            desc.Intelligence.ToString(),
+            desc.Participation.ToString());
     }
 }
